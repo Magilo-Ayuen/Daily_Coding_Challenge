@@ -7,7 +7,53 @@
     <title>JS Validation</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form action="">
+           <h2>Student Submission Form </h2> 
+            <hr class="divider">
+
+
+            <label for="name">Name:</label>
+            <div class="student-name"> 
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+            </div>
+
+            <div class="date-email">
+                <div class="DoB">
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+                <div class="email">
+                    <label for="email">Student e-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="jon.doe@example.com">
+                </div>
+            </div>
+
+            <div class="student-id">
+                <label for="student-id">Student ID:</label>
+                <input type="text" name="studentId" id="studentId" placeholder="abc211-200/2026">
+            </div>
+           
+            <div class="title">
+                <label for="title">Paper Title</label>
+                <input type="text" name="title" id="title">
+            </div>
+
+            <div class="desc">
+                <label for="desc">Description</label>
+                <textarea name="desc" id="desc" rows="10" ></textarea>
+            </div>
+
+            <div class="uploads">
+                <label for="uploads">Upload Files</label>
+                <input type="file" name="Upload" id="Upload">
+            </div>
+
+            <a class="submit" href="#">Submit</a>
+        </form>
+    </div>
 
     <script src="script.js"></script>
 </body>
